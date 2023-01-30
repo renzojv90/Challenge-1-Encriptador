@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Encriptador-Challenge</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./img/logo.png" alt="Logo de alura">
+    </header>
+    <main>
+        <section class="seccion-izquierda">
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+
+            <div class="informacion">
+                <img id="exclamacion" src="./img/exclamacion.png" alt="Signo de exclamación">
+                <h6 >Solo letras minúsculas y sin acentos</h6>
+            </div>
+
+            <div class="botones">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+
+        
+
+        <section class="seccion-derecha">
+            <img class="muneco" src="./img/muneco.png" alt="imagen">            
+            <p class="mensaje">Ningún mensaje fue encontrado</p>
+            <p class="texto" >Ingresa el texto que desees encriptar o desencriptar</p>
+            <p class="encriptar-desencriptar"></p>
+            <p class="mensaje-resultado"></p>
+            <button class="btn-copiar">Copiar</button>
+            
+        </section>
+
+    </main>
+    <footer>
+        <a href="https://github.com/renzojv90" ><img src="./img/GitHub-Logo.png" alt="Logo GitHub" id="github" ></a>
+        
+        <p class="nombre"> &copy; Viglione, Renzo</p>    
+        
+        
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
